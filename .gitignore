@@ -2,5 +2,12 @@
 data_dependency_waste_project
 project_selection
 data_dependency_waste_project
-test1
-test2
+test_1_via_variable
+test_2_template
+test_3_plugin_eslint
+data-analysis
+replication2
+replication_knip
+data/data-curation-depc/data_dependency_waste_project
+data/data-curation-knip/data_dependency_waste_project
+venv

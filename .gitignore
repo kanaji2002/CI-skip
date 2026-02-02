@@ -22,3 +22,4 @@ data/data-curation-depc/__pycache__/
 data/data-curation-depc/**/__pycache__/
 data/data-curation-depc/data_dependency_waste_project/
 data/data-curation-depc/project_selection/
+data/data-curation-depc/config.py

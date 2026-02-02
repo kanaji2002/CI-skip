@@ -4,3 +4,15 @@ project_selection
 data_dependency_waste_project
 test1
 test2
+DepPrune/
+repos/
+data/
+test/
+tools/
+*.zip
+*.csv
+.DS_Store
+Dockerfile
+README_DEPPRUNE.md
+npm_test_opened_files.txt
+run_dep_prune.sh

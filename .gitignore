@@ -1,12 +1,8 @@
 .env
-data_dependency_waste_project
-project_selection
-data_dependency_waste_project
 test1
 test2
 DepPrune/
 repos/
-data/
 test/
 tools/
 *.zip
@@ -16,3 +12,19 @@ Dockerfile
 README_DEPPRUNE.md
 npm_test_opened_files.txt
 run_dep_prune.sh
+
+# data/ 配下は基本無視
+data/
+# data-curation-depc のソースコードは追跡
+!data/data-curation-depc/
+!data/data-curation-depc/**/*.py
+!data/data-curation-depc/**/*.md
+!data/data-curation-depc/**/*.txt
+!data/data-curation-depc/**/*.sh
+!data/data-curation-depc/**/
+
+# data-curation-depc 内の不要ファイルは除外
+data/data-curation-depc/__pycache__/
+data/data-curation-depc/**/__pycache__/
+data/data-curation-depc/data_dependency_waste_project/
+data/data-curation-depc/project_selection/

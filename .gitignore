@@ -1,33 +1,13 @@
 .env
-test1
-test2
-DepPrune/
-repos/
-test/
-tools/
-*.zip
-*.csv
-.DS_Store
-Dockerfile
-README_DEPPRUNE.md
-npm_test_opened_files.txt
-run_dep_prune.sh
-
-# data/ 配下
-data/*
-!data/data-curation-depc/
-!data/data-curation-knip/
-
-# data-curation-depc 内の不要ファイルは除外
-data/data-curation-depc/__pycache__/
-data/data-curation-depc/**/__pycache__/
-data/data-curation-depc/data_dependency_waste_project/
-data/data-curation-depc/project_selection/
-data/data-curation-depc/config.py
-
-# data-curation-knip 内の不要ファイルは除外
-data/data-curation-knip/__pycache__/
-data/data-curation-knip/**/__pycache__/
-data/data-curation-knip/data_dependency_waste_project/
-data/data-curation-knip/project_selection/
-data/data-curation-knip/config.py
+data_dependency_waste_project
+project_selection
+data_dependency_waste_project
+test_1_via_variable
+test_2_template
+test_3_plugin_eslint
+data-analysis
+replication2
+replication_knip
+data/data-curation-depc/data_dependency_waste_project
+data/data-curation-knip/data_dependency_waste_project
+venv
